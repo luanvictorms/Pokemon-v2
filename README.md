@@ -7,8 +7,8 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/luanvictorms/README-template?Pokemon-v2)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/luanvictorms/README-template?Pokemon-v2)
 
-<img src="exemplo-image.png" alt="exemplo imagem">
-![image](https://user-images.githubusercontent.com/82541610/160007203-212989f7-d721-4f74-aad8-ec31735a5211.png)
+<img src="https://user-images.githubusercontent.com/82541610/160007203-212989f7-d721-4f74-aad8-ec31735a5211.png" alt="exemplo imagem">
+
 
 
 > O projeto e de um game de baseado em cartas de Pokemon.
