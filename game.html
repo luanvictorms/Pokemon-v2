@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+   
+    <title>Game</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="img">
+            <img src="imagens/image 4.svg" alt="img-topo"> 
+        </div>
+        
+        <div id="allstar" class="all-star ">
+            <img src="imagens/image-removebg-preview (1) 1.svg">
+        </div>
+
+        <div class="group">
+
+            <div id="pokebola" class="pokebola">
+                <img src="imagens/image-removebg-preview (2) 1.svg"> 
+            </div>
+
+            <div id="container-jogar" class="btn">
+                <div id="jogar" class="btn-start" onclick="jogar()"> 
+                    <button type="button">JOGAR </button>
+                </div>
+                <div id="sobre" class="btn-end" onclick="sobre()">
+                    <button type="button">SOBRE</button>
+                </div>
+
+            </div> <!--Botão-->
+
+            <div id="container-jogadores" class="btn hide">
+
+                <div class="btn-start"> 
+                    <button type="button">2 JOGADORES </button>
+                </div>
+                <div class="btn-end">
+                    <button type="button">4 JOGADORES</button>
+                </div>
+                <div class="btn-end" onclick="voltar()">
+                    <button type="button">VOLTAR</button>
+                </div>
+
+            </div> <!--Botão-->
+
+            <div id="container-sobre" class="btn hide">
+
+                <div class="btn-start container-flex"> 
+                    <p>O jogo consiste em um campo onde cada jogador rola o dado e anda a quantidade de casas rolada, cada rodada uma nova aventura que envolve desde batalhas ate compras em Poke shoppings</p>
+                </div>
+                <div class="btn-end" onclick="voltar()">
+                    <button type="button">VOLTAR</button>
+                </div>
+    
+            </div> <!--Botão-->
+
+        </div><!--Group -->
+
+
+    </div>    
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
