@@ -1,7 +1,7 @@
 # Pokemon Allstars
 
 
-![GitHub repo size](https://img.shields.io/github/repo-size/luanvictorms/README-template?Pokemon-v2)
+![GitHub repo size](https://img.shields.io/github/repo-size/luanvictorms/Pokemon-v2)
 ![GitHub language count](https://img.shields.io/github/languages/count/luanvictorms/README-template?Pokemon-v2)
 ![GitHub forks](https://img.shields.io/github/forks/luanvictorms/README-template?Pokemon-v2)
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/luanvictorms/README-template?Pokemon-v2)
