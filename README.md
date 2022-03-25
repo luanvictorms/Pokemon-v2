@@ -1,23 +1,12 @@
 # Pokemon Allstars
 
-
-<<<<<<< HEAD
-![GitHub repo size](https://img.shields.io/github/repo-size/luanvictorms/README-template?Pokemon-v2)
-![GitHub language count](https://img.shields.io/github/languages/count/luanvictorms/README-template?Pokemon-v2)
-![GitHub forks](https://img.shields.io/github/forks/luanvictorms/README-template?Pokemon-v2)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/luanvictorms/README-template?Pokemon-v2)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/luanvictorms/README-template?Pokemon-v2)
-=======
 ![GitHub repo size](https://img.shields.io/github/repo-size/luanvictorms/Pokemon-v2)
 ![GitHub language count](https://img.shields.io/github/languages/count/luanvictorms/Pokemon-v2)
 ![GitHub forks](https://img.shields.io/github/forks/luanvictorms/Pokemon-v2)
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/luanvictorms/Pokemon-v2)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/luanvictorms/Pokemon-v2)
->>>>>>> 08c1ce16049c466835ec223fa298be1b6ad0e9e4
 
 <img src="https://user-images.githubusercontent.com/82541610/160007203-212989f7-d721-4f74-aad8-ec31735a5211.png" alt="exemplo imagem">
-
-
 
 > O projeto e de um game de baseado em cartas de Pokemon.
 
