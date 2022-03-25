@@ -1,0 +1,81 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body, html {
+
+    max-width: 100%; 
+    height: 100%; 
+    background: url('imagens/image-bg-game.svg') ; 
+
+
+}
+.body-top{
+
+    position: absolute; 
+    top: 0;
+    width: 100%; 
+    display: flex; 
+    justify-content: space-between;
+
+
+}
+
+.body-right{
+
+
+    position: absolute; 
+    right: 0; 
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap; 
+    justify-content: center;
+
+}
+
+
+.body-bottom{
+
+
+    position: absolute; 
+    bottom: 0; 
+    width: 100%; 
+    display: flex; 
+    justify-content: space-between;
+
+
+
+}
+
+
+.body-left{
+
+    position: absolute; 
+    left: 0; 
+    height: 100%; 
+    width: 2%;
+    display: flex;
+    flex-flow: column nowrap; 
+    justify-content: center;
+
+}
+
+.dado{
+
+
+    width: 150px;
+    position: absolute; 
+    z-index: 10000;     
+    right: 70px; 
+    bottom: 18%; 
+}
+
+.dado img{
+    
+        width: 50%;
+
+
+
+}

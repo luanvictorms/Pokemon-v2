@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados - Teste</title>
+
+    <style> 
+
+        @keyframes Dado {
+
+            from {
+
+                transform: rotate(0deg); 
+
+            }
+
+
+            to {
+
+                transform: rotate(90deg);
+
+
+            }
+
+            
+        }
+
+
+        .dados {
+
+            display: none; 
+
+
+
+        }
+
+        .bloco { 
+
+            display: block; 
+
+
+        }
+
+        .animacao {
+
+            animation-name: Dado; 
+            animation-duration: 2s; 
+            animation-delay: 0s;
+            animation-iteration-count: 2 ;
+
+        }
+    
+    
+    
+    </style>
+
+
+
+</head>
+<body onload="esconderDados()">
+    
+
+    <div class="dado" id="DadoFather">
+
+
+       
+            
+           
+            <img src="imagens/Dado1.svg"   id="Dado1"/>
+         
+        
+       
+        <img src="imagens/Dado 2.svg" id="Dado2"/> 
+        <img src="imagens/Dado 3 (1).svg" id="Dado3"/> 
+        <img src="imagens/Dado 4.svg"  id="Dado4" /> 
+        <img src="imagens/Dado 5.svg"  id="Dado5"/> 
+        <img src="imagens/Dado 6.svg" id="Dado6"/> 
+
+    </div>
+
+    <button onclick="DispararFuncao()">Dinamizar</button>
+
+    <script>
+    
+    const DadoPrimario = document.getElementById('Dado1')
+    const DadoSecundario = document.getElementById('Dado2')
+    const DadoTerceiro = document.getElementById('Dado3')
+    const DadoQuarto = document.getElementById('Dado4')
+    const DadoQuinto = document.getElementById('Dado5') 
+    const DadoSexto = document.getElementById('Dado6')
+        
+        
+        function esconderDados() {
+
+            DadoSecundario.classList = 'dados'
+            DadoTerceiro.classList = 'dados'
+            DadoQuarto.classList = 'dados'
+            DadoQuinto.classList = 'dados'
+            DadoSexto.classList = 'dados'
+
+        }
+        
+
+        function  DispararFuncao() {
+
+                
+        let x = 1
+        let y = 0 
+        let mat = Math.ceil(Math.random() ) * 100
+
+        console.log(mat)
+           
+        let interval = setInterval( ()=>   {
+
+           
+          
+            
+
+            let CardT = document.getElementById(`Dado${x}`)
+            let CardHide = document.getElementById(`Dado${y}`)
+            
+           
+            x += 1 
+            console.log(y)
+            console.log(CardHide)
+            if(x >= 2){
+
+                y = x - 1 
+
+            }
+           
+           
+            CardHide.classList.add('dados')
+            CardHide.classList.remove('bloco')
+            CardT.classList.add('bloco')
+            CardT.classList.add('animacao')
+            CardT.style.position = 'absolute'; 
+            CardT.style.top = mat;
+            cardT.style.right = mat; 
+            if(x === 6) {
+
+                clearInterval(interval); 
+              
+
+            }
+            
+
+           }, 1000  )
+            
+
+
+            }
+    
+
+
+           
+    </script> 
+
+</body>
+</html>

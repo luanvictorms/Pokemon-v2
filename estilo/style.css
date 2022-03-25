@@ -55,11 +55,24 @@ body, html {
 
 .group{
     display: grid; 
-    grid-template-columns: 20% 57%  ;
+    grid-template-columns: 21% 57%  ;
     grid-gap: 20px; 
     justify-content: center;
     align-items: center;
 }
+
+
+/*Nova Classe Criada */ 
+.group-sobre{
+
+    display: grid; 
+    grid-template-columns: 1fr; 
+    justify-content: center;
+
+
+
+}
+
 
 .btn {
     margin-top: -50px; 
@@ -83,7 +96,24 @@ button:hover{
     background: black; 
     color: white; 
     transition: all 0.4s; 
+
+
+
 }
+
+/*Nova Classe Criada */
+.btn-back{
+
+    display: block; 
+    text-align: center; 
+    margin: 0 auto; 
+
+
+
+}
+
+
+
 .pokebola{
     align-self: start;
     position: relative; 
@@ -97,9 +127,13 @@ button:hover{
     width: 400px;
     height: 200px;
     padding: 10px;
-    text-align: center;
+   
+    margin: 50px auto; 
+
 }
 
 p {
     font-size: 18px;
-}
+    text-align: center;
+
+}   

@@ -20,7 +20,7 @@
             <img src="imagens/image-removebg-preview (1) 1.svg">
         </div>
 
-        <div class="group">
+        <div class="group" id="group-um">
 
             <div id="pokebola" class="pokebola">
                 <img src="imagens/image-removebg-preview (2) 1.svg"> 
@@ -30,6 +30,7 @@
                 <div id="jogar" class="btn-start" onclick="jogar()"> 
                     <button type="button">JOGAR </button>
                 </div>
+               
                 <div id="sobre" class="btn-end" onclick="sobre()">
                     <button type="button">SOBRE</button>
                 </div>
@@ -52,11 +53,12 @@
 
             <div id="container-sobre" class="btn hide">
 
-                <div class="btn-start container-flex"> 
+                <div class="btn-start container-flex" id="containerFlex"> 
                     <p>O jogo consiste em um campo onde cada jogador rola o dado e anda a quantidade de casas rolada, cada rodada uma nova aventura que envolve desde batalhas ate compras em Poke shoppings</p>
                 </div>
                 <div class="btn-end" onclick="voltar()">
-                    <button type="button">VOLTAR</button>
+                    <button class="btn-back
+                        " type="button">VOLTAR</button>
                 </div>
     
             </div> <!--Botão-->

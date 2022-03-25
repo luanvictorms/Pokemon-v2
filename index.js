@@ -3,6 +3,7 @@ const menuJogadores = document.getElementById("container-jogadores")
 const menuSobre = document.getElementById("container-sobre");
 const pokebola = document.getElementById("pokebola");
 const allStar = document.getElementById("allstar");
+const ContainerFlex = document.getElementById("group-um"); 
 
 
 function jogar() {
@@ -16,6 +17,9 @@ function voltar() {
     menuSobre.classList.add("hide");
     pokebola.classList.remove("hide");
     allStar.classList.remove("hide");
+    ContainerFlex.classList.remove('group-sobre')
+    allStar.classList.add('all-star')
+
 }
 
 function sobre() {
@@ -23,4 +27,7 @@ function sobre() {
     menuSobre.classList.remove("hide");
     pokebola.classList.add("hide");
     allStar.classList.add("hide");
+    allStar.classList.remove('all-star');
+    ContainerFlex.classList.add('group-sobre');
+    
 }
