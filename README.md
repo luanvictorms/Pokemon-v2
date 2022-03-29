@@ -16,8 +16,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 - [x] Home funcional
 - [x] Escolha de quantidade de jogadores
-- [ ] Sobre funcional
-- [ ] Redirecionamento para o jogo
+- [x] Sobre funcional
+- [x] Redirecionamento para o jogo
 - [ ] Logica do jogo BackEnd em NodeJS com API
 
 ## 💻 Pré-requisitos
